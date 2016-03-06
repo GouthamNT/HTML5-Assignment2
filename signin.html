@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <script src="check.js"></script>
+    </head>
+    <body>
+        <section id=heading>
+            Welcome
+        </section>
+        <section id="existing-user">
+            <p>Already a member</p>
+            <form action="welcome.html" onsubmit="return check()">
+            <p>
+                <label>Email ID :</label>
+                <input type="email">
+            </p>
+            <p>
+                <label>First Name :</label>
+                <input type="Password">
+            </p>
+            <button>Sign in</button>
+        </form>
+        </section>
+        <div id=message style="padding:5px;"> </div>
+        <script src="check.js"></script>
+    </body>
+</html>
